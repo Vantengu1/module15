@@ -24,7 +24,7 @@ const Container = styled.div`
       max-width: 90%;
     }
 
-    @media (max-width: 390px) {
+    @media (max-width: 480px) {
       flex-direction: column;
       padding: 20px;
       max-width: 80%;
@@ -52,7 +52,7 @@ const CardBlock: React.FC = () => {
     }  
 
     return(
-        <Container>
+        <Container className={styled.div}>
             {
                 posts.map((post) => (
                 <PostCard 

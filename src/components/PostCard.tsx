@@ -30,9 +30,14 @@ const Card = styled.div`
         width: 780px;
     }
     
-    @media (max-width: 390px) {
+    @media (max-width: 480px) {
         margin-left: -20%;
         width: 80%;
+    }
+
+    @media (max-width: 390px) {
+        margin-left: -30%;
+        width: 70%;
     }
 `
 
