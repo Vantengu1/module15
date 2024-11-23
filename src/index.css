@@ -1,0 +1,29 @@
+:root {
+
+  /* basic colors */
+  --background: #282A2E;
+  --color: #fff;
+  --background2: #42464C;
+
+  /* fonts */
+  --first-fonts: "Manrope", serif;
+  --second-fonts: "Poiret One", sans-serif;
+}
+
+
+body {
+  width: 1920px;
+  font-family: var(--second-fonts);
+  background: var(--background);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color);
+}
+

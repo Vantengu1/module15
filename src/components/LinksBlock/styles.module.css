@@ -1,0 +1,81 @@
+.baner {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+}
+
+.baner div {
+    max-width: 96%;
+    border-radius:5px;
+    padding: 5px;
+    margin: 10px 10px 20px 5px;
+}
+
+.baner a {
+    font-size: 50px;
+    border-bottom: 5px solid black;
+}
+
+.baner .html__link a {
+    font-size: 50px;
+    border-bottom: 5px solid #FF852E;
+}
+.baner .css__link a {
+    font-size: 50px;
+    border-bottom: 5px solid #2E9AFF;
+}
+.baner .js__link a {
+    font-size: 50px;
+    border-bottom: 5px solid #FFD829;
+}
+.baner .access__link a {
+    font-size: 50px;
+    border-bottom: 5px solid #12F3AF;
+}
+.baner .web__link a {
+    font-size: 50px;
+    border-bottom: 5px solid #40E746;
+}
+.baner .recipts__link a {
+    font-size: 50px;
+    border-bottom: 5px solid #C670FF;
+}
+
+
+
+.baner .html__link:hover {
+    font-size: 50px;
+    background-color: #FF852E;
+    transition: all 0.4s linear;
+    opacity: 0.8;
+}
+.baner .css__link:hover {
+    font-size: 50px;
+    background-color: #2E9AFF;
+    transition: all 0.4s linear;
+    opacity: 0.8;
+}
+.baner .js__link:hover {
+    font-size: 50px;
+    background-color: #FFD829;
+    transition: all 0.4s linear;
+    opacity: 0.8;
+}
+.baner .access__link:hover {
+    font-size: 50px;
+    background-color: #12F3AF;
+    transition: all 0.4s linear;
+    opacity: 0.8;
+}
+.baner .web__link:hover {
+    font-size: 50px;
+    background-color: #40E746;
+    transition: all 0.4s linear;
+    opacity: 0.8;
+}
+.baner .recipts__link:hover {
+    font-size: 50px;
+    background-color: #C670FF;
+    transition: all 0.4s linear;
+    opacity: 0.8;
+}
